@@ -1,0 +1,40 @@
+                    Fault Tolerance
+
+vSphere Fault Tolerance safeguards any virtual machine (with up to four virtual CPUs), including
+homegrown and custom applications that traditional high-availability products cannot protect. Key
+capabilities include the following:
+
+• Compatible with all types of shared storage, including Fibre Channel, Internet Small Computer Systems
+Interface (iSCSI), Fibre Channel over Ethernet (FCoE) and Network-attached Storage (NAS).
+
+• Compatible with all operating systems supported by vSphere.
+
+• Works with existing VMware vSphere Distributed Resource Scheduler and VMware vSphere High
+Availability (HA) clusters for advanced load balancing and optimised initial placement of virtual
+machines.
+
+• Contains a version-control mechanism that allows primary and secondary virtual machines to run on
+vSphere FT-compatible hosts at different, but compatible, patch levels.   
+
+                  vSphere Replication
+
+• VMware vSphere Replication is an extension to VMware vCenter Server that provides hypervisor-based
+virtual machine replication and recovery.
+
+• vSphere Replication replaces storage-based replication. It protects virtual machines from partial or
+complete site failures by replicating the virtual machines from a primary site to a secondary site.
+vSphere Replication provides several benefits as compared to storage-based replication.
+
+• Data protection at a lower cost per virtual machine.
+
+• A replication solution that allows flexibility in storage vendor selection at the primary and secondary
+sites.
+
+• Overall lower cost per replication.           
+
+• With vSphere Replication, you can replicate virtual machines from a primary datacenter to a secondary
+site quickly and efficiently. After you set up the replication infrastructure, you can choose the virtual
+machines to be replicated at a different Recovery Point Objective (RPO).
+
+• You can configure all vSphere Replication features in the vSphere Web Client. You monitor the status of
+replication through the replication management and monitoring dashboard.
